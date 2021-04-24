@@ -1,0 +1,72 @@
+//all styles added here for simplicity but in normal project sub-directories would be used accordingly
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5ff;
+}
+
+.project-container,
+.users-container,
+.user-container,
+.nav-container {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.project-table table,
+.users-table table,
+.user-table table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.project-header,
+.users-header,
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.project-title,
+.users-title,
+.user-title {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.project-hours,
+.users-hours,
+.user-hours {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+th,
+td{
+    padding: 8px;
+}
+
+th {
+    background: #0000001f;
+    text-align: left;
+}
+
+tr:nth-child(2n) {
+    background: #a1b4ff40;
+}
+
+.lsv-button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #4b5279;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    border: none;
+    cursor: pointer;
+}
